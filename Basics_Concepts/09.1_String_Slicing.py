@@ -10,5 +10,3 @@ print(name[-4:-1])
 # Find the length of string:-
 print(len(name))
 
-nm = "Harry"
-print(nm[-4:-2])
