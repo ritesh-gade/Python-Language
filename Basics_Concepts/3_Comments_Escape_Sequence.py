@@ -26,4 +26,13 @@ print("Hello\n\tI hope you are doing good")
 print("Hello",2,10,13,sep="~")
 
 # 6) end="008\n": print at end \n is default (line feed)
-print("Hello",2,10,13, end="008")
+print("Hello",2,10,13, end="008\n")
+
+# 7) \\: Backslach 
+print("This will insert one \\ (Backslach).")
+
+# 8) \r: Carriage Return
+print("Hello\rWorld")
+
+# 9) \b: Backspace
+print("Hello  \bWorld!")
