@@ -25,6 +25,7 @@ D=False
 print("The type of d is:",type(d))
 print("The type of D is:",type(D))
 
+
 # 4) Sequenced Data: Ordered Collection of Data (List & Tuples)
 # a) List: are Mutable & can be modified after creation. Enclose within Square brackets[]
 list1=[10,12,2,4,-4,["Banana,Apple"],[-3,34]]
@@ -35,6 +36,7 @@ print("The type of list1 is:",type(list1))
 tuple1=(("Dog","Cat"),("Mango","Apple"),("Tiger","Lion"))
 print(tuple1)
 print("The type of tuple1 is:",type(tuple1))
+
 
 # 5) Maped Data type: Unordered Collection of Data (Dict)
 # a) dict: Key:value pair. Enclose in Curly brackets{}
