@@ -1,5 +1,5 @@
 # Loops:- Sometimes a programmer wants to execute a group of statements a certain number of times. This case done using loops 
-# Classified into Following main types:-
+# Classified into Following two types:-
 # 1) for loop
 # 2) while loop
 

@@ -1,9 +1,9 @@
 # kolkata timestamp (24-hrs)
 import time
-timestamp = int(time.strftime('%H'))
-# timestamp = int(input("Enter the Current Time: "))
+# timestamp = int(time.strftime('%H'))
+timestamp = int(input("Enter the Current Time: "))
 
-if (timestamp >= 6 and timestamp <=11):
+if (timestamp > 0 and timestamp <=11):
     print("Good Morning Guys")
 
 elif (timestamp >= 12 and timestamp <=16):
