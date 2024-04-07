@@ -28,12 +28,16 @@ for i in range (0,len(questions)):
     question = questions[i]
     print("----------------------------------------------------------------------")
     print("----------------------------------------------------------------------\n")
-    print(f"Question for Rs. {levels[i]}")
+    print(f"Next Question for Rs. {levels[i]}")
     print(f"Question No.:{i+1}) {question[0]}")
     print(f"a. {question[1]}                   b.{question[2]}")
     print(f"c. {question[3]}             d.{question[4]}")
-
+    # print("\n")
+    print("----------------------------------------------------------------------")
     reply = int(input("Enter Your Answer (1-4) or Quit(0): "))
+    print("----------------------------------------------------------------------\n")
+
+
     if (reply == 0):
         money = levels[i-1]
         break
@@ -41,6 +45,8 @@ for i in range (0,len(questions)):
         print(f"Your Answer is Correct, You have won Rs. {levels[i]}")
         if(i == 4):
             money = 10000
+        elif(i == 7):
+            money = 80000
         elif(i == 9):
             money = 320000
         elif(i == 14):
