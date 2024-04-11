@@ -21,15 +21,17 @@ for index, mark in enumerate(marks):
     if(index == 3):
         print("Ritesh, very Good!!!")
         
+        
 # for index, mark in enumerate(marks, start=1):
 #     print(index,":-", mark)
 #     if(index == 3):
 #         print("Ritesh, very Good!!!")
 
-# One more Example start at index 1:
-fruits = ["Banana","Apple","Mango","PineApple","WaterMelon"]
 
-for index, fruit in enumerate(fruits):
-    print(f"{index+1}:-{fruit}")
-    if (index == 2):
-        print("This is my favorite Fruit")
+# # One more Example start at index 1:
+# fruits = ["Banana","Apple","Mango","PineApple","WaterMelon"]
+
+# for index, fruit in enumerate(fruits):
+#     print(f"{index+1}:-{fruit}")
+#     if (index == 2):
+#         print("This is my favorite Fruit")
