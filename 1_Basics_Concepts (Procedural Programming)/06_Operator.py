@@ -13,11 +13,20 @@ print(a//b) #  Floor Division
 print(a**b) #  Exponentiation
 
 
+# 2) Assignment Operator:
+# -----> =, +=, -=, *=
 
+# 3) Comparison Operators:
+# -----> ==, >, <, <=, >=, !=
+
+# 4) Logical Operators:
+# -----> and, or, not
 
 
 # 'is' Vs '==' Operators:- 
-
+# Both are the Comparison operators
+# is :- Compare the identity (Exact location of memeory)
+# == :- Compare the Value  
 a = [11, 43, 99]
 b = [11, 43, 99]
 
@@ -31,7 +40,7 @@ b = 9
 print("Pointing to the same location:- ",a is b)
 print("Pointing to the same location:- ",a == b) 
 
-# Tuples are also immutable
+# Tuples are also immutable (No change)
 a = (2,5)
 a = (2,5)
 print("Tuple :- ",a is b)
