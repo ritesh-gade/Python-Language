@@ -14,3 +14,7 @@ print("This is String:", X + Y)
 print("Now we Can Change Integer:",int(X) + int(Y))
 
 
+n = int(input("Enter First Number:"))
+p = int(input("Enter Second Number:"))
+
+print("Adding two int: -", n + p)
