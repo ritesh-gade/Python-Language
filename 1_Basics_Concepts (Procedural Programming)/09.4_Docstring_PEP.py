@@ -15,7 +15,7 @@ square(a)
 #           PEP is a document that provide guidlines and beast practices on how to write python code. 
 
 
-# The Zen of Python:- (Ths is a Poem)
+# The Zen of Python:- (Ths is a Poem)----> Easter Egg is inserted in python. 
 #                       Long time pythoneer Tim peters succinctly channels the BDFL's guiding principles for python design. 
 
 

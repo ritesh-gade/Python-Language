@@ -37,3 +37,5 @@ print(new)
 # Eg.3:-
 print(f"Multiplication:-{22 * 23}")
 
+
+
