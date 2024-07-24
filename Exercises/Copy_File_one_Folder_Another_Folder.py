@@ -1,11 +1,11 @@
 import os               # Operating System walkthrough from the folder which is present in the main folder
 import shutil           # Library which is used for a copying or cut of file one folder to another folder paste
 
-source_folder = '/home/ritesh/Desktop/Source_folder'
-target_folder ='/home/ritesh/Desktop/Target_folder'
+source_folder = 'C:/Users/vmadmin/Desktop/Source_folder'
+target_folder ='C:/Users/vmadmin/Desktop/Target_folder'
 
 print("-------------------------Source_Folder--------------------------------")
-file_extensions = (".txt",".yaml",".conf",".py")
+file_extensions = (".txt",".yaml",".conf",".py",".exe")
 for dirs, subdirs, files in os.walk(source_folder):
     for file in files:
         if file.endswith(file_extensions):
