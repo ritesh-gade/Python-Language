@@ -40,5 +40,3 @@ if __name__ == "__main__":
     include_ext = args.include_ext if args.include_ext else []
     exclude_ext = args.exclude_ext if args.exclude_ext else []
     copy_files(args.src_folder, args.dest_folder, include_ext, exclude_ext)
-
-    # Nikhil
